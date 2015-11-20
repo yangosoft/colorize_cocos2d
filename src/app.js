@@ -88,7 +88,7 @@ var HelloWorldLayer = cc.Layer.extend({
          cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,
             onKeyPressed:function(key, event) {
-                console.log("KEY " + key);
+                cc.log("KEY " + key);
                 
                 var step;
                 
@@ -173,6 +173,8 @@ var HelloWorldLayer = cc.Layer.extend({
         this.fillRandom(this.matrixStatus, this.numRows, this.numColumns, 4);
 
         this.paintStatus(this.drawNode,  this.matrixStatus, this.gridPosition , this.cellSize );
+		this.numMovements = 0;
+		this.lblMovements.setString("Movements: " + this.numMovements );
     },
     
     doStep: function(step)
@@ -259,7 +261,7 @@ var HelloWorldLayer = cc.Layer.extend({
             }
         }
         
-        console.log(matrixStatus);
+        cc.log(matrixStatus);
     },
     
     paintStatus: function( drawNode, matrixStatus, position,  cellSize )
