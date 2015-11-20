@@ -1,2 +1,7 @@
-# colorize_cocos2d
-Simple game with cocos2d js 3.8
+#Colorize cocos2d
+Simple game with Cocos2d js 3.8
+
+
+It's a little copy of https://code.google.com/p/pycolorize/
+
+
