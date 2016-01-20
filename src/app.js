@@ -22,6 +22,9 @@ var HelloWorldLayer = cc.Layer.extend({
         // ask the window size
         var size = cc.winSize;
         var self = this;
+		
+		var bgGradient = new cc.LayerGradient(cc.color(0,0,0,255), cc.color(0x46,0x82,0xB4,255));
+		this.addChild(bgGradient);
 
         /////////////////////////////
         // 3. add your codes below...
