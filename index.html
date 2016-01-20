@@ -2,15 +2,28 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Colorize</title>
-    
+    <title>Cocos2d-html5 Hello World test</title>
+    <link rel="icon" type="image/GIF" href="res/favicon.ico"/>
+    <meta name="viewport" content="width=480, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        body, canvas, div {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            -khtml-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+    </style>
 </head>
-<body>
-	<h1>Colorize</h1>
-	
-	<p>Simple game to test Cocos2d-JS 3.8</p>
-	<p><a href="game.html">Play</a></p>
+<body style="padding:0; margin: 0; background: #000;">
+<script src="res/loading.js"></script>
+<canvas id="gameCanvas" width="480" height="720"></canvas>
 
-	<p><a href="https://github.com/yangosoft/colorize_cocos2d">Clone it!</a></p>
+<script cocos src="game.min.js"></script>
 </body>
 </html>
