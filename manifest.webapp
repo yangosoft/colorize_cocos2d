@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "name": "coloroid",
-  "description": "coloroid",
+  "name": "Colorize",
+  "description": "Colorize",
   "launch_path": "/index.html",
   "icons": {
     "128": "/res/icon.png"
   },
   "developer": {
-    "name": "Cocos2d-html5",
-    "url": "http://cocos2d-x.org/"
+    "name": "DAERboboticcs",
+    "url": "http://dae-robotics.com/android"
   },
   "default_locale": "en",
   "installs_allowed_from": [
